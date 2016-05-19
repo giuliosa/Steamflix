@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Steamflix</title>
+        <title>Sobre - Steamflix</title>
         <meta name="description" content="Site to buy movies and games on-line">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -12,18 +12,24 @@
 
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/w3s.css">
+				<link rel="stylesheet" href="css/w3s.css">
 				<link rel="stylesheet" href="css/w3-theme-purple.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/sobre.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <script src="js/bootstrap.js"></script>
     </head>
-    <body class="w3-theme-dark">
+    <body class="w3-dark-grey">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
         <!-- Add your site or application content here -->					
+				<!--<header>				
+				<a href="index.html"><img src="img/apple-touch-icon.png"/>	</a>
+				<h1>Sobre o Steamflix</h1>
+				</header>
+				 Implementar o header padrão-->	
+
 				<header>
 					<ul class="w3-navbar head-of-header">
 						<li><p>Steamflix</p></li>
@@ -36,14 +42,14 @@
 					</ul>
 
 					<ul class="w3-navbar ul-color">
-						<li class="w3-dark-grey"><a href="#">Home</a></li>
+						<li><a href="index.html">Home</a></li>
 						<li><a href="#">Produtos</a></li>
-						<li><a href="sobre.html">Sobre</a></li>
+						<li class="w3-dark-grey"><a href="sobre.html">Sobre</a></li>
 						<li><a href="#">Contato</a></li>
 						<li class="w3-right"><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>								
 					</ul>					
 				</header>		
-
+				
 				<div id="tela-login" class="w3-modal">
 					<span onclick="document.getElementById('tela-login').style.display='none'" 
 					class="w3-closebtn w3-hover-red w3-container w3-padding-hor-16 w3-display-topright w3-xxlarge">X</span>
@@ -72,13 +78,65 @@
 						</div>
 
 					</div>
+				</div>		
+				
+				<h2 class="w3-jumbo w3-theme-d4">História</h2>
+				
+				<p class="texto">O<strong> Steamflix</strong> começou em 2015 como um projeto de Java para a faculdade, com interface gráfica feito por Giulio Sá e Felipe Carlos. Era um sistema simples de venda e aluguel de filmes e jogos. 
+					 O nome é uma brincadeira feita com duas das grandes plataformas de Jogo e filme,<strong> Steam + Netflix.</strong>
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+					 
+				</p>
+				<figure class="imagens" >
+					<img class="w3-image" src="img/tile-wide.png">
+					<figcaption>NNOONONONONON</figcaption>
+				</figure>
+
+				<h2 class="w3-jumbo w3-theme-d4">Atualização</h2>	
+					
+				<p class="texto">
+					O sistema <strong> Steamflix</strong> recebeu um upgrade e se tornou um sistema online, Com o <strong> Steamflix</strong>, você pode comprar seus filmes e jogos online e fazer o download deles, ou receber a mídia física em sua casa
+						 ou você pode alugar a mídia virtual por um tempo, para testar os jogos ou ver os filmes.	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+				</p>
+				
+				<figure class="imagens">
+					<img class="w3-image" src="img/tile-wide.png">
+					<figcaption>NNOONONONONON</figcaption>
+				</figure>			
+
+				<!-- Container -->
+				<div class="w3-container w3-padding-hor-64 w3-center w3-theme-d4">
+					<h3 class="w3-jumbo">Nosso Time</h2>	
+					<p>Conheça o time:</p>
+			
+					<div class="w3-row"><br>
+
+						<div class="w3-third">
+							<img src="img/apple-touch-icon.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+							<h3>Felipe Carlos</h3>
+							<p>DBA - Database administrator</p>
+						</div>
+
+						<div class="w3-third">
+							<img src="img/apple-touch-icon.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+							<h3>Giulio Sá</h3>
+							<p>Front-end developer</p>
+						</div>
+
+						<div class="w3-third">
+							<img src="img/apple-touch-icon.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+							<h3>Pedro Gomes</h3>
+							<p>Back-End developer</p>
+						</div>
+					</div>	
 				</div>
 
 				<footer>
 					<a href="index.html"><img class="image-footer"src="img/apple-touch-icon.png"/>	</a>
 					&copy; copyright Steamflix, Todos os direitos reservados
-				</footer>					
-
+				</footer>				
+		
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>

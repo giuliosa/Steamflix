@@ -95,26 +95,55 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body{
+	/*margin-left:auto;
+	margin-right:auto;	*/
+	padding:0px 5% 0px 5%;
+}
+
 .head-of-header{
 	background-color:#392052;
 	width: 100%;
-  height: 40px; 
+	height: 40px;
+	padding:0px 5% 0px 5%; 
+}
+
+.head-of-header p{
+	font-size:20px;
+	color:#fff;
 }
 
 .ul-color{
+	background-color:#6a319c;
+	padding:0px 5% 0px 5%; 
+}
+
+.ul-color  a{
+	color:#fff;
+}
+
+.ul-color a:hover{
+	color:#392052;
+}
+
+.icone{
+	color:#fff;	
+	/*padding: 5px ; */
+}
+
+footer{
+	color:#777;
+	/*	margin: 30px 0;*/
+	padding: 15px 0;
 	background-color:#b4acc5;
 }
 
-li .active{
-	background-color:#392052;
+.image-footer{
+	margin-right: 30px;
+	margin-left: 20px;
+	vertical-align: middle;
+	width: 50px;
 }
-
-
-
-
-
-
-
 
 
 /* ==========================================================================

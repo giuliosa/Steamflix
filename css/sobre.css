@@ -1,0 +1,102 @@
+
+header{
+	background-color:#392052;
+}
+
+header img{
+	margin:20px 40px;
+	vertical-align: middle;
+	width: 80px;
+}
+
+h1{
+	color:#fff;
+	background-color:#402549;
+	padding:10px;
+}
+
+h2{	
+	margin-top:30px;
+	text-indent:15px;
+	padding:0 30px;
+}
+
+.texto{
+	padding:0 45px;
+	text-indent:15px;
+}
+
+figure{
+	text-align: center;
+	padding:15px;
+	margin:30px;
+}
+
+figcaption {
+	font-style: italic;
+	margin-top:10px;
+}
+
+footer{
+	color:#777;
+	/*	margin: 30px 0;*/
+	padding: 15px 0;
+	background-color:#b4acc5;
+}
+
+.image-footer{
+	margin-right: 30px;
+	margin-left: 20px;
+	vertical-align: middle;
+	width: 50px;
+}
+
+.imagens{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%
+}
+
+.imagens img{
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+	min-height:200px;
+	max-height:400px;
+}
+
+.head-of-header{
+	background-color:#392052;
+	width: 100%;
+	height: 40px;
+	padding:0px 5% 0px 5%; 
+}
+
+.head-of-header p{
+	font-size:20px;
+	color:#fff;
+}
+
+.ul-color{
+	background-color:#6a319c;
+	padding:0px 5% 0px 5%; 
+}
+
+.ul-color  a{
+	color:#fff;
+}
+
+.ul-color a:hover{
+	color:#392052;
+}
+
+.icone{
+	color:#fff;	
+	/*padding: 5px ; */
+}
+
+.pesquisa{
+	margin:5px; 
+	width:100px;
+    height:15px;
+}

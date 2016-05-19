@@ -12,28 +12,75 @@
 
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/w3s.css">
+				<link rel="stylesheet" href="css/w3-theme-purple.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <script src="js/bootstrap.js"></script>
     </head>
-    <body>
+    <body class="w3-dark-grey">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
         <!-- Add your site or application content here -->					
 				<header>
-					<div class="head-of-header"> 						
-					</div>
-
-					<ul class="nav nav-tabs ul-color">
-						<li role="presentation" class="active"><a href="#">Home</a></li>
-						<li role="presentation"><a href="#">Produtos</a></li>
-						<li role="presentation"><a href="#">Sobre</a></li>
-						<li role="presentation"><a href="#">Contato</a></li>
+					<ul class="w3-navbar head-of-header">
+						<li><p>Steamflix</p></li>
+						<li class="w3-right">
+							<a href="#">
+								<span onclick="document.getElementById('tela-login').style.display='block'" class=" icone">Login</span>
+							</a>
+						</li>							
+						<li class="w3-right"><a href="#"><span class="glyphicon glyphicon-search icone"></span></a></li>	
+						<li class="w3-right"><input class="form-control pesquisa" type="search"></li>						
 					</ul>
-				</header>
-				
+					<nav >
+						<ul class="w3-navbar ul-color">
+							<li class="w3-dark-grey"><a href="#">Home</a></li>
+							<li><a href="produtos.html">Produtos</a></li>
+							<li><a href="sobre.html">Sobre</a></li>
+							<li><a href="#">Contato</a></li>
+							<li class="w3-right"><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>																	
+						</ul>
+					</nav>					
+				</header>		
+
+				<div id="tela-login" class="w3-modal">
+					<span onclick="document.getElementById('tela-login').style.display='none'" 
+					class="w3-closebtn w3-hover-red w3-container w3-padding-hor-16 w3-display-topright w3-xxlarge">X</span>
+					<div class="w3-modal-content w3-card-8 w3-dark-grey w3-animate-zoom" style="max-width:350px">
+		
+						<div class="w3-center"><br>
+							<img src="img/apple-touch-icon.png" alt="Avatar" style="width:40%" class="w3-circle w3-margin-top">
+						</div>
+
+						<div class="w3-container">
+							<div class="w3-section">
+								<label><b>Login</b></label>
+								<input class="w3-input w3-border w3-hover-border-grey w3-light-grey w3-margin-bottom" type="text" placeholder="Login">
+
+								<label><b>Senha</b></label>
+								<input class="w3-input w3-border w3-hover-border-grey w3-light-grey" type="password" placeholder="*******">
+								
+								<button class="w3-btn w3-btn-block w3-deep-purple w3-section">Login</button>
+								<input class="w3-check" type="checkbox" checked="checked"> Lembrar Senha
+							</div>
+						</div>
+
+						<div class="w3-container w3-border-top w3-padding-hor-16 w3-light-grey">
+							<button onclick="document.getElementById('tela-login').style.display='none'" type="button" class="w3-btn">Cancel</button>
+							<span class="w3-right w3-padding w3-hide-small">Esqueceu a <a href="#">senha?</a></span>
+						</div>
+
+					</div>
+				</div>
+
+				<footer>
+					<a href="index.html"><img class="image-footer"src="img/apple-touch-icon.png"/>	</a>
+					&copy; copyright Steamflix, Todos os direitos reservados
+						
+				</footer>					
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
